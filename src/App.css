@@ -1,0 +1,36 @@
+.formSection {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inputDiv input {
+  width: 250px;
+  height: 35px;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submitBtn {
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: darkblue;
+}
+
+.formSection h2{
+  color: white;
+}
