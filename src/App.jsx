@@ -5,6 +5,7 @@ import "./App.css";
 import FormExample from "./FormExample";
 import SampleArray from "./SampleArray";
 import Userpage from "./Userpage";
+import Employee from "./Employee";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
     
     {/* <FormExample/> */}
     {/* <SampleArray/> */}
-    <Userpage/>
+    {/* <Userpage/> */}
+    <Employee/>
     </div>
   )
 }
