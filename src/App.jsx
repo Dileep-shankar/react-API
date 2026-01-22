@@ -6,6 +6,7 @@ import FormExample from "./FormExample";
 import SampleArray from "./SampleArray";
 import Userpage from "./Userpage";
 import Employee from "./Employee";
+import Multistate from "./Multistate";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
     {/* <FormExample/> */}
     {/* <SampleArray/> */}
     {/* <Userpage/> */}
-    <Employee/>
+    {/* <Employee/> */}
+    <Multistate/>
     </div>
   )
 }
